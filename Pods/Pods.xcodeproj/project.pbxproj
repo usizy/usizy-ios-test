@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BD80ED90E2D6E7F86930906F1103D44 /* UsizyButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36860DBC0EC427E2AE99509AAB1F1199 /* UsizyButtonDelegate.swift */; };
+		12C371E8C5B8DED4FB645CCDAB1BC8E8 /* USizyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B0210085C983AEC3F866D77C0137A /* USizyButton.swift */; };
+		24F1097A13F9D1D3B4958BEDED7CB7F2 /* UsizyMain.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9313B2F8A1E797CBBE05924C09591 /* UsizyMain.storyboard */; };
 		2FCBA10A2CD0CBBF3E605A667FAE595D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6F09A4CD6094E1D496060BE8C2E2D0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		79A5C6D87AFA242C34F7AA7FF539897D /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3590CE03F1FAEC8BBC35ACC83E2D3A7 /* Demo.swift */; };
-		AF3B3084804F7A2407AF3CD9ABA47BCA /* UsizyIosSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3702AC3F2CA1B904CA0BD215C3361E /* UsizyIosSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3737C49CD7A4DC6123E7F655CC84E0AE /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89A7B3C4B215013AE8635999D7E7A5 /* Demo.swift */; };
+		58CBFB063A296DF88E6477F7543495A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F2DEC5C591E5E47DE5942EDBF6BDA6C /* UsizyIosSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA614CD6FABD092D59BDB9D50E7DD7D /* UsizyIosSdk-dummy.m */; };
+		C7BFFC3675EB0A822B0A5126E22E631D /* MainFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA030819552006E97EE2C8D8C4E7E5 /* MainFormViewController.swift */; };
 		C97784D205BD8CC98D6220E6B8D946AE /* Pods-uSizy iOS Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27877F986B1DB47C944715444FB62611 /* Pods-uSizy iOS Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0E5081797706DBF62699E66E7495A37 /* UsizyIosSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C1DE56628831F9C305A42AAF056EC /* UsizyIosSdk-dummy.m */; };
+		CA32162CD012EF24D5E9215AD5317979 /* UsizyIosSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22755DA64A56CB579F35F0FD78045AF8 /* UsizyIosSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D38EAD4EB20BE39A8B71998FCAA93216 /* Pods-uSizy iOS Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5AD8A5855AC6CA4D1E303A1EEFAE8 /* Pods-uSizy iOS Test-dummy.m */; };
+		EFC4C3C44488E76892647DE5C5F12876 /* UsizyButtonConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE090C0ED7F8663A9FC846B0D702353 /* UsizyButtonConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		82B38EEB79B619F0C2AE0E81F7F79CBA /* PBXContainerItemProxy */ = {
+		58BD729B39362C2E8F27682B575EC325 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,29 +33,42 @@
 
 /* Begin PBXFileReference section */
 		157CC9C1B83061BC830EAD56D6719509 /* Pods-uSizy iOS Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-uSizy iOS Test-Info.plist"; sourceTree = "<group>"; };
+		22755DA64A56CB579F35F0FD78045AF8 /* UsizyIosSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsizyIosSdk-umbrella.h"; sourceTree = "<group>"; };
 		27877F986B1DB47C944715444FB62611 /* Pods-uSizy iOS Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-uSizy iOS Test-umbrella.h"; sourceTree = "<group>"; };
 		2E61F9EEAE00F2DEF798C009F81BAEBB /* Pods-uSizy iOS Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-uSizy iOS Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		36860DBC0EC427E2AE99509AAB1F1199 /* UsizyButtonDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsizyButtonDelegate.swift; path = UsizyIosSdk/Classes/UsizyButtonDelegate.swift; sourceTree = "<group>"; };
 		3CB5AD8A5855AC6CA4D1E303A1EEFAE8 /* Pods-uSizy iOS Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-uSizy iOS Test-dummy.m"; sourceTree = "<group>"; };
-		4C1B311E4A6043AE9727A35BDABA02F0 /* UsizyIosSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UsizyIosSdk-Info.plist"; sourceTree = "<group>"; };
-		66783A84891A9A354CE70362B2B4FBDC /* UsizyIosSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsizyIosSdk-prefix.pch"; sourceTree = "<group>"; };
+		480D24B8E807F1759BDECD60E87FBD42 /* UsizyIosSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UsizyIosSdk.debug.xcconfig; sourceTree = "<group>"; };
+		4CE090C0ED7F8663A9FC846B0D702353 /* UsizyButtonConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsizyButtonConfiguration.swift; path = UsizyIosSdk/Classes/UsizyButtonConfiguration.swift; sourceTree = "<group>"; };
+		57AFDF9EE64AB4DD16967747B85AD5E6 /* UsizyIosSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UsizyIosSdk-Info.plist"; sourceTree = "<group>"; };
+		66A94CF0E20CB51414BB4CFD08220DF2 /* UsizyIosSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UsizyIosSdk.modulemap; sourceTree = "<group>"; };
+		6C89A7B3C4B215013AE8635999D7E7A5 /* Demo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Demo.swift; path = UsizyIosSdk/Classes/Demo.swift; sourceTree = "<group>"; };
+		6DA614CD6FABD092D59BDB9D50E7DD7D /* UsizyIosSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UsizyIosSdk-dummy.m"; sourceTree = "<group>"; };
 		7179E40620A658FBCA636BCD3B41EB0A /* Pods-uSizy iOS Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-uSizy iOS Test-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74F6664286CE11C01F9D5027F42EEE6A /* Pods-uSizy iOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-uSizy iOS Test.release.xcconfig"; sourceTree = "<group>"; };
+		7FC9313B2F8A1E797CBBE05924C09591 /* UsizyMain.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = UsizyMain.storyboard; path = UsizyIosSdk/Classes/UsizyMain.storyboard; sourceTree = "<group>"; };
 		8A4AD3C721C05B228F49270C9296E804 /* Pods-uSizy iOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-uSizy iOS Test.debug.xcconfig"; sourceTree = "<group>"; };
-		8D3702AC3F2CA1B904CA0BD215C3361E /* UsizyIosSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsizyIosSdk-umbrella.h"; sourceTree = "<group>"; };
-		953EFD4E3BC6B30268D20A5971E5ADDD /* UsizyIosSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UsizyIosSdk.release.xcconfig; sourceTree = "<group>"; };
-		95AD6D99FA5BB601795E8EA1989EE10E /* UsizyIosSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UsizyIosSdk.modulemap; sourceTree = "<group>"; };
+		8DFFCCC1BEB4634E5F3A03A2E844C796 /* UsizyIosSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UsizyIosSdk.release.xcconfig; sourceTree = "<group>"; };
 		9C940F1D912D0ED2B8AD88B24693E588 /* Pods-uSizy iOS Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-uSizy iOS Test.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B05C1DE56628831F9C305A42AAF056EC /* UsizyIosSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UsizyIosSdk-dummy.m"; sourceTree = "<group>"; };
 		B81223F68A63C9CF3B89602D69F749FB /* Pods_uSizy_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_uSizy_iOS_Test.framework; path = "Pods-uSizy iOS Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AA030819552006E97EE2C8D8C4E7E5 /* MainFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainFormViewController.swift; path = UsizyIosSdk/Classes/MainFormViewController.swift; sourceTree = "<group>"; };
 		C47132136EB12F9F56282E6B4BD761DB /* Pods-uSizy iOS Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-uSizy iOS Test-frameworks.sh"; sourceTree = "<group>"; };
-		D426C455A74338224FF351076EAABE47 /* UsizyIosSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UsizyIosSdk.debug.xcconfig; sourceTree = "<group>"; };
-		E3590CE03F1FAEC8BBC35ACC83E2D3A7 /* Demo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Demo.swift; path = UsizyIosSdk/Classes/Demo.swift; sourceTree = "<group>"; };
+		D9C8B0DE3379A6EA6851E1BDD4D827D5 /* UsizyIosSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsizyIosSdk-prefix.pch"; sourceTree = "<group>"; };
 		ECFF4CB913295DD83C1BACAA249A8E8A /* UsizyIosSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UsizyIosSdk.framework; path = UsizyIosSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8B0210085C983AEC3F866D77C0137A /* USizyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = USizyButton.swift; path = UsizyIosSdk/Classes/USizyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		176DAB1F2301F8DC109E263A889E2FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CBFB063A296DF88E6477F7543495A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D61DCA1674D2C65B3CAD54292284639 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,21 +77,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97F16DA1A134EB85FA75ED24BA36B182 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F09A4CD6094E1D496060BE8C2E2D0D3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		208870CF4D7ACDBBD437C2155FC56F5A /* Pods */ = {
+		1EDDC8D1025E52BBE06DADBF9F478C90 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9830521667E6CA374AEFA5A5B797CEC2 /* UsizyIosSdk */,
+				9A6275E09579FCFBB1913A98CC5364C0 /* UsizyIosSdk */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -111,29 +121,19 @@
 			path = "Target Support Files/Pods-uSizy iOS Test";
 			sourceTree = "<group>";
 		};
-		9830521667E6CA374AEFA5A5B797CEC2 /* UsizyIosSdk */ = {
+		9A6275E09579FCFBB1913A98CC5364C0 /* UsizyIosSdk */ = {
 			isa = PBXGroup;
 			children = (
-				E3590CE03F1FAEC8BBC35ACC83E2D3A7 /* Demo.swift */,
-				99F15ED33134402B8C48A8519AD3E400 /* Support Files */,
+				6C89A7B3C4B215013AE8635999D7E7A5 /* Demo.swift */,
+				B9AA030819552006E97EE2C8D8C4E7E5 /* MainFormViewController.swift */,
+				EF8B0210085C983AEC3F866D77C0137A /* USizyButton.swift */,
+				4CE090C0ED7F8663A9FC846B0D702353 /* UsizyButtonConfiguration.swift */,
+				36860DBC0EC427E2AE99509AAB1F1199 /* UsizyButtonDelegate.swift */,
+				7FC9313B2F8A1E797CBBE05924C09591 /* UsizyMain.storyboard */,
+				FBA18990F5AF797ADCBAA0CC6E6F9216 /* Support Files */,
 			);
 			name = UsizyIosSdk;
 			path = UsizyIosSdk;
-			sourceTree = "<group>";
-		};
-		99F15ED33134402B8C48A8519AD3E400 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				95AD6D99FA5BB601795E8EA1989EE10E /* UsizyIosSdk.modulemap */,
-				B05C1DE56628831F9C305A42AAF056EC /* UsizyIosSdk-dummy.m */,
-				4C1B311E4A6043AE9727A35BDABA02F0 /* UsizyIosSdk-Info.plist */,
-				66783A84891A9A354CE70362B2B4FBDC /* UsizyIosSdk-prefix.pch */,
-				8D3702AC3F2CA1B904CA0BD215C3361E /* UsizyIosSdk-umbrella.h */,
-				D426C455A74338224FF351076EAABE47 /* UsizyIosSdk.debug.xcconfig */,
-				953EFD4E3BC6B30268D20A5971E5ADDD /* UsizyIosSdk.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UsizyIosSdk";
 			sourceTree = "<group>";
 		};
 		A6F69CC37D54F0AB09A0FA6B98913B23 /* Products */ = {
@@ -150,7 +150,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				208870CF4D7ACDBBD437C2155FC56F5A /* Pods */,
+				1EDDC8D1025E52BBE06DADBF9F478C90 /* Pods */,
 				A6F69CC37D54F0AB09A0FA6B98913B23 /* Products */,
 				309F2783398014E70DE4858F316C4ED3 /* Targets Support Files */,
 			);
@@ -164,14 +164,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FBA18990F5AF797ADCBAA0CC6E6F9216 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66A94CF0E20CB51414BB4CFD08220DF2 /* UsizyIosSdk.modulemap */,
+				6DA614CD6FABD092D59BDB9D50E7DD7D /* UsizyIosSdk-dummy.m */,
+				57AFDF9EE64AB4DD16967747B85AD5E6 /* UsizyIosSdk-Info.plist */,
+				D9C8B0DE3379A6EA6851E1BDD4D827D5 /* UsizyIosSdk-prefix.pch */,
+				22755DA64A56CB579F35F0FD78045AF8 /* UsizyIosSdk-umbrella.h */,
+				480D24B8E807F1759BDECD60E87FBD42 /* UsizyIosSdk.debug.xcconfig */,
+				8DFFCCC1BEB4634E5F3A03A2E844C796 /* UsizyIosSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UsizyIosSdk";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		786076FB1F7D9FA1DFA3801B344B4077 /* Headers */ = {
+		4F8AB2D98B2CEC6C0944DDD1CC5B874B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF3B3084804F7A2407AF3CD9ABA47BCA /* UsizyIosSdk-umbrella.h in Headers */,
+				CA32162CD012EF24D5E9215AD5317979 /* UsizyIosSdk-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,12 +203,12 @@
 /* Begin PBXNativeTarget section */
 		37B16EDC9125E774D10F5335A2420436 /* UsizyIosSdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAE757AC729565C485535619F22AD00C /* Build configuration list for PBXNativeTarget "UsizyIosSdk" */;
+			buildConfigurationList = 04EE283CFFB962DEB1A8496E70FD5649 /* Build configuration list for PBXNativeTarget "UsizyIosSdk" */;
 			buildPhases = (
-				786076FB1F7D9FA1DFA3801B344B4077 /* Headers */,
-				A55A8123327E0B96F1D9D9AA3CCFD881 /* Sources */,
-				97F16DA1A134EB85FA75ED24BA36B182 /* Frameworks */,
-				1D7031056E76D35986127AD876902BEA /* Resources */,
+				4F8AB2D98B2CEC6C0944DDD1CC5B874B /* Headers */,
+				D70D79891BD85ED7ED2543F3E8D5876F /* Sources */,
+				176DAB1F2301F8DC109E263A889E2FF6 /* Frameworks */,
+				0A8E04DAE96D8750E2C330E691B961E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -216,7 +231,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B2EC5E13E85DE2D4792D0F2F48CC7B0 /* PBXTargetDependency */,
+				AC18027A10C514CC0156C2C8BD52CB20 /* PBXTargetDependency */,
 			);
 			name = "Pods-uSizy iOS Test";
 			productName = "Pods-uSizy iOS Test";
@@ -252,7 +267,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D7031056E76D35986127AD876902BEA /* Resources */ = {
+		0A8E04DAE96D8750E2C330E691B961E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,23 +292,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A55A8123327E0B96F1D9D9AA3CCFD881 /* Sources */ = {
+		D70D79891BD85ED7ED2543F3E8D5876F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A5C6D87AFA242C34F7AA7FF539897D /* Demo.swift in Sources */,
-				D0E5081797706DBF62699E66E7495A37 /* UsizyIosSdk-dummy.m in Sources */,
+				3737C49CD7A4DC6123E7F655CC84E0AE /* Demo.swift in Sources */,
+				C7BFFC3675EB0A822B0A5126E22E631D /* MainFormViewController.swift in Sources */,
+				12C371E8C5B8DED4FB645CCDAB1BC8E8 /* USizyButton.swift in Sources */,
+				EFC4C3C44488E76892647DE5C5F12876 /* UsizyButtonConfiguration.swift in Sources */,
+				0BD80ED90E2D6E7F86930906F1103D44 /* UsizyButtonDelegate.swift in Sources */,
+				5F2DEC5C591E5E47DE5942EDBF6BDA6C /* UsizyIosSdk-dummy.m in Sources */,
+				24F1097A13F9D1D3B4958BEDED7CB7F2 /* UsizyMain.storyboard in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B2EC5E13E85DE2D4792D0F2F48CC7B0 /* PBXTargetDependency */ = {
+		AC18027A10C514CC0156C2C8BD52CB20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UsizyIosSdk;
 			target = 37B16EDC9125E774D10F5335A2420436 /* UsizyIosSdk */;
-			targetProxy = 82B38EEB79B619F0C2AE0E81F7F79CBA /* PBXContainerItemProxy */;
+			targetProxy = 58BD729B39362C2E8F27682B575EC325 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -364,6 +384,41 @@
 			};
 			name = Debug;
 		};
+		4F35B0F33E4899A3AFC594F11D0742B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFFCCC1BEB4634E5F3A03A2E844C796 /* UsizyIosSdk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UsizyIosSdk/UsizyIosSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk.modulemap";
+				PRODUCT_MODULE_NAME = UsizyIosSdk;
+				PRODUCT_NAME = UsizyIosSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		72F276FE8C3740B1D2355DD4A1B8BEE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A4AD3C721C05B228F49270C9296E804 /* Pods-uSizy iOS Test.debug.xcconfig */;
@@ -394,6 +449,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD819CC81ED439B8A87D96614EB987D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480D24B8E807F1759BDECD60E87FBD42 /* UsizyIosSdk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UsizyIosSdk/UsizyIosSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk.modulemap";
+				PRODUCT_MODULE_NAME = UsizyIosSdk;
+				PRODUCT_NAME = UsizyIosSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -462,40 +551,6 @@
 			};
 			name = Release;
 		};
-		E0AD86C727750F8A6E60DBA684F56868 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D426C455A74338224FF351076EAABE47 /* UsizyIosSdk.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UsizyIosSdk/UsizyIosSdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk.modulemap";
-				PRODUCT_MODULE_NAME = UsizyIosSdk;
-				PRODUCT_NAME = UsizyIosSdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EF66D8D8E66B2BC13C17A05086E0ADDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74F6664286CE11C01F9D5027F42EEE6A /* Pods-uSizy iOS Test.release.xcconfig */;
@@ -533,44 +588,18 @@
 			};
 			name = Release;
 		};
-		F68CB8DA06B5D80F444C36E101F935A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 953EFD4E3BC6B30268D20A5971E5ADDD /* UsizyIosSdk.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UsizyIosSdk/UsizyIosSdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/UsizyIosSdk/UsizyIosSdk.modulemap";
-				PRODUCT_MODULE_NAME = UsizyIosSdk;
-				PRODUCT_NAME = UsizyIosSdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04EE283CFFB962DEB1A8496E70FD5649 /* Build configuration list for PBXNativeTarget "UsizyIosSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD819CC81ED439B8A87D96614EB987D7 /* Debug */,
+				4F35B0F33E4899A3AFC594F11D0742B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		154EA851879E7DA9EC8DACD59F54999A /* Build configuration list for PBXNativeTarget "Pods-uSizy iOS Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -585,15 +614,6 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CAE757AC729565C485535619F22AD00C /* Build configuration list for PBXNativeTarget "UsizyIosSdk" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0AD86C727750F8A6E60DBA684F56868 /* Debug */,
-				F68CB8DA06B5D80F444C36E101F935A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

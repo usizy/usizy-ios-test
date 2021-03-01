@@ -16,6 +16,15 @@ class ViewController: UIViewController {
         
         let demo = Demo()
         demo.demo()
+        
+        let btUsizy = USizyButton()
+        btUsizy.center = self.view.center
+        
+        let config = UsizyButtonConfiguration()
+        config.productId = "BABY_UPPER"
+        btUsizy.initialize(config)
+        
+        self.view.addSubview(btUsizy)
     }
 
 

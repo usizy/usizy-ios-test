@@ -1,6 +1,6 @@
 {
   "name": "UsizyIosSdk",
-  "version": "0.1.1",
+  "version": "0.1.9",
   "summary": "Usizy Size button SDK for iOS.",
   "swift_versions": "4.0",
   "platforms": {
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/usizy/usizy-ios-sdk.git",
-    "tag": "0.1.1"
+    "tag": "0.1.9"
   },
   "source_files": "UsizyIosSdk/Classes/**/*",
   "swift_version": "4.0"
