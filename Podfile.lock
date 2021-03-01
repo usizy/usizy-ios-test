@@ -1,22 +1,22 @@
 PODS:
-  - UsizyIosSdk (0.1.9)
+  - UsizyIosSdk (0.1.13)
 
 DEPENDENCIES:
-  - UsizyIosSdk (from `https://bitbucket.org/usizy/usizy-ios-sdk.git`, tag `0.1.9`)
+  - UsizyIosSdk (from `https://bitbucket.org/usizy/usizy-ios-sdk.git`, tag `0.1.13`)
 
 EXTERNAL SOURCES:
   UsizyIosSdk:
     :git: https://bitbucket.org/usizy/usizy-ios-sdk.git
-    :tag: 0.1.9
+    :tag: 0.1.13
 
 CHECKOUT OPTIONS:
   UsizyIosSdk:
     :git: https://bitbucket.org/usizy/usizy-ios-sdk.git
-    :tag: 0.1.9
+    :tag: 0.1.13
 
 SPEC CHECKSUMS:
-  UsizyIosSdk: 703714ca4075900a5416a5c0ec284d91db4d6c5e
+  UsizyIosSdk: 3b30864d29a92e8c3073d7c4a3be6e2863c94974
 
-PODFILE CHECKSUM: 9237b2b3abcdb10b00b7a8a05a49fef3da785508
+PODFILE CHECKSUM: 9e5e692b2524ed41f175766c2de58740d63d2084
 
 COCOAPODS: 1.10.1
