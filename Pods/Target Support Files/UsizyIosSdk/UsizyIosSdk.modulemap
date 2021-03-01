@@ -1,6 +1,0 @@
-framework module UsizyIosSdk {
-  umbrella header "UsizyIosSdk-umbrella.h"
-
-  export *
-  module * { export * }
-}
