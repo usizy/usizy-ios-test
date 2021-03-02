@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         
         let config = UsizyButtonConfiguration()
         config.productId = "BABY_UPPER"
+        config.logoResName = "zara"
         btUsizy.initialize(config)
         
         self.view.addSubview(btUsizy)
