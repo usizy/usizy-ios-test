@@ -14,9 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let demo = Demo()
-        demo.demo()
-        
         let btUsizy = USizyButton()
         btUsizy.center = self.view.center
         
