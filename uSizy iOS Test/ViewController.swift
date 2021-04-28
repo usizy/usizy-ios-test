@@ -11,6 +11,11 @@ import UsizyIosSdk
 class ViewController: UIViewController, UsizyButtonDelegate, UITableViewDelegate, UITableViewDataSource {
 
     let productIds = [
+        "BOY_SHOES",
+        "FEMALE_SHOES",
+        "UNISEX_SHOES",
+        "MALE_SHOES",
+        "HUMAN_SHOES",
         "BABY_UPPER",
         "BOY_FULL",
         "BOY_LOWER",

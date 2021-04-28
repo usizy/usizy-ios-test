@@ -6,5 +6,5 @@ target 'uSizy iOS Test' do
   use_frameworks!
 
   # Pods for uSizy iOS Test
-  pod 'UsizyIosSdk',  :git => 'https://bitbucket.org/usizy/usizy-ios-sdk.git', :tag => '0.4.0'
+  pod 'UsizyIosSdk',  :git => 'https://bitbucket.org/usizy/usizy-ios-sdk.git', :tag => '0.5.0'
 end

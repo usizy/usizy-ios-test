@@ -1,13 +1,13 @@
 PODS:
-  - Alamofire (5.4.1)
-  - AlamofireImage (4.1.0):
-    - Alamofire (~> 5.1)
-  - UsizyIosSdk (0.4.0):
+  - Alamofire (5.4.3)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - UsizyIosSdk (0.5.0):
     - Alamofire (~> 5.2)
     - AlamofireImage (~> 4.1)
 
 DEPENDENCIES:
-  - UsizyIosSdk (from `https://bitbucket.org/usizy/usizy-ios-sdk.git`, tag `0.4.0`)
+  - UsizyIosSdk (from `https://bitbucket.org/usizy/usizy-ios-sdk.git`, tag `0.5.0`)
 
 SPEC REPOS:
   trunk:
@@ -17,18 +17,18 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   UsizyIosSdk:
     :git: https://bitbucket.org/usizy/usizy-ios-sdk.git
-    :tag: 0.4.0
+    :tag: 0.5.0
 
 CHECKOUT OPTIONS:
   UsizyIosSdk:
     :git: https://bitbucket.org/usizy/usizy-ios-sdk.git
-    :tag: 0.4.0
+    :tag: 0.5.0
 
 SPEC CHECKSUMS:
-  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
-  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
-  UsizyIosSdk: 6d521eee3fef6ad21e911febcd5d5dee38cb57bc
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  UsizyIosSdk: 8f65454c6a9917287d4ff7addcd914dc91c5a364
 
-PODFILE CHECKSUM: b4ac12b13b8c21f11262ed0a510e96f9e96cb315
+PODFILE CHECKSUM: 9773240ded6689aba06d2de9c9bcd96a20facc6f
 
 COCOAPODS: 1.10.1
