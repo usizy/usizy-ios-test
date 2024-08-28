@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40B8352C030E5ABD630BF98C /* Pods_uSizy_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEE2D15BE4C44BFF57F81FF /* Pods_uSizy_iOS_Test.framework */; };
 		656342C225ED1C49000F830D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 656342C425ED1C49000F830D /* Localizable.strings */; };
 		65BCD86F260BAA0D00645001 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BCD86E260BAA0D00645001 /* ProductTableViewCell.swift */; };
 		65BE06B525E8040D00A857D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BE06B425E8040D00A857D7 /* AppDelegate.swift */; };
@@ -16,6 +15,7 @@
 		65BE06BC25E8040D00A857D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BE06BA25E8040D00A857D7 /* Main.storyboard */; };
 		65BE06BE25E8041000A857D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BE06BD25E8041000A857D7 /* Assets.xcassets */; };
 		65BE06C125E8041000A857D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BE06BF25E8041000A857D7 /* LaunchScreen.storyboard */; };
+		DB08509D073C3432F28F6C07 /* Pods_uSizy_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8043157E7A8A6999FD70D6 /* Pods_uSizy_iOS_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,9 +49,9 @@
 		65BE06BD25E8041000A857D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65BE06C025E8041000A857D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65BE06C225E8041000A857D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FEE2D15BE4C44BFF57F81FF /* Pods_uSizy_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uSizy_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C50ADEBE5A75F00A93F5FB7 /* Pods-uSizy iOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uSizy iOS Test.debug.xcconfig"; path = "Target Support Files/Pods-uSizy iOS Test/Pods-uSizy iOS Test.debug.xcconfig"; sourceTree = "<group>"; };
-		A7F86E1A8FB742F0E97C2378 /* Pods-uSizy iOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uSizy iOS Test.release.xcconfig"; path = "Target Support Files/Pods-uSizy iOS Test/Pods-uSizy iOS Test.release.xcconfig"; sourceTree = "<group>"; };
+		7DCEFDBCE5D3F77B51FD54D3 /* Pods-uSizy iOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uSizy iOS Test.release.xcconfig"; path = "Target Support Files/Pods-uSizy iOS Test/Pods-uSizy iOS Test.release.xcconfig"; sourceTree = "<group>"; };
+		AB453830350539C1F2A4D844 /* Pods-uSizy iOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uSizy iOS Test.debug.xcconfig"; path = "Target Support Files/Pods-uSizy iOS Test/Pods-uSizy iOS Test.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8043157E7A8A6999FD70D6 /* Pods_uSizy_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uSizy_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B8352C030E5ABD630BF98C /* Pods_uSizy_iOS_Test.framework in Frameworks */,
+				DB08509D073C3432F28F6C07 /* Pods_uSizy_iOS_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 				65BE06B325E8040D00A857D7 /* uSizy iOS Test */,
 				65BE06B225E8040D00A857D7 /* Products */,
 				9E0BE3779CF335DF10C9C2C2 /* Pods */,
-				B017BECA9337418E47F6DB3B /* Frameworks */,
+				A0BBECE332A9CD87D635ACDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +103,16 @@
 		9E0BE3779CF335DF10C9C2C2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9C50ADEBE5A75F00A93F5FB7 /* Pods-uSizy iOS Test.debug.xcconfig */,
-				A7F86E1A8FB742F0E97C2378 /* Pods-uSizy iOS Test.release.xcconfig */,
+				AB453830350539C1F2A4D844 /* Pods-uSizy iOS Test.debug.xcconfig */,
+				7DCEFDBCE5D3F77B51FD54D3 /* Pods-uSizy iOS Test.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B017BECA9337418E47F6DB3B /* Frameworks */ = {
+		A0BBECE332A9CD87D635ACDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8FEE2D15BE4C44BFF57F81FF /* Pods_uSizy_iOS_Test.framework */,
+				EB8043157E7A8A6999FD70D6 /* Pods_uSizy_iOS_Test.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,11 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65BE06C525E8041000A857D7 /* Build configuration list for PBXNativeTarget "uSizy iOS Test" */;
 			buildPhases = (
-				F185605B7E64C2D9A3182E58 /* [CP] Check Pods Manifest.lock */,
+				C1367A29BD9306CD108B52EC /* [CP] Check Pods Manifest.lock */,
 				65BE06AD25E8040D00A857D7 /* Sources */,
 				65BE06AE25E8040D00A857D7 /* Frameworks */,
 				65BE06AF25E8040D00A857D7 /* Resources */,
-				E13BA06C1364DB388FAE78DE /* [CP] Embed Pods Frameworks */,
+				50C10ADA0A5561B1EC21C07C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,7 +206,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E13BA06C1364DB388FAE78DE /* [CP] Embed Pods Frameworks */ = {
+		50C10ADA0A5561B1EC21C07C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,7 +223,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uSizy iOS Test/Pods-uSizy iOS Test-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F185605B7E64C2D9A3182E58 /* [CP] Check Pods Manifest.lock */ = {
+		C1367A29BD9306CD108B52EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,7 +429,7 @@
 		};
 		65BE06C625E8041000A857D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C50ADEBE5A75F00A93F5FB7 /* Pods-uSizy iOS Test.debug.xcconfig */;
+			baseConfigurationReference = AB453830350539C1F2A4D844 /* Pods-uSizy iOS Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,7 +451,7 @@
 		};
 		65BE06C725E8041000A857D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7F86E1A8FB742F0E97C2378 /* Pods-uSizy iOS Test.release.xcconfig */;
+			baseConfigurationReference = 7DCEFDBCE5D3F77B51FD54D3 /* Pods-uSizy iOS Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

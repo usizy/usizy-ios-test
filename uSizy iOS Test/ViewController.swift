@@ -59,6 +59,8 @@ class ViewController: UIViewController, UsizyButtonDelegate, UITableViewDelegate
         let config = UsizyButtonConfiguration()
         config.productId = productIds[indexPath.row]
         config.user = "AnonymousUser"
+        config.titleColor = UIColor.green
+        config.fontFamily = UIFont(name: "Al Nile", size: CGFloat(20))!
         cell.vwUsizy.delegate = self
         cell.vwUsizy.initialize(config)
         
@@ -68,6 +70,7 @@ class ViewController: UIViewController, UsizyButtonDelegate, UITableViewDelegate
     // MARK: - UITableViewDelegate
     func onRecommendedSize(_ productId: String?, data: SaveRecommendResponse?) {
         // do something
+        print(data)
     }
 }
 
