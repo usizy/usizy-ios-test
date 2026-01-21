@@ -61,6 +61,7 @@ class ViewController: UIViewController, UsizyButtonDelegate, UITableViewDelegate
         config.user = "AnonymousUser"
         config.titleColor = UIColor.green
         config.fontFamily = UIFont(name: "Al Nile", size: CGFloat(20))!
+        config.underlineText = true
         cell.vwUsizy.delegate = self
         cell.vwUsizy.initialize(config)
         
