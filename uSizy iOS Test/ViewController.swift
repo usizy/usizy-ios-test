@@ -60,7 +60,7 @@ class ViewController: UIViewController, UsizyButtonDelegate, UITableViewDelegate
         config.productId = productIds[indexPath.row]
         config.user = "AnonymousUser"
         config.titleColor = UIColor.green
-        config.fontFamily = UIFont(name: "Al Nile", size: CGFloat(20))!
+        config.fontFamily = UIFont(name: "Al Nile", size: CGFloat(15)) ?? UIFont.systemFont(ofSize: 15)
         config.underlineText = true
         cell.vwUsizy.delegate = self
         cell.vwUsizy.initialize(config)
@@ -68,10 +68,14 @@ class ViewController: UIViewController, UsizyButtonDelegate, UITableViewDelegate
         return cell
     }
     
-    // MARK: - UITableViewDelegate
+    // MARK: - UsizyButtonDelegate
     func onRecommendedSize(_ productId: String?, data: SaveRecommendResponse?) {
         // do something
         print(data)
+    }
+
+    func onButtonClicked(_ productId: String?) {
+        print("uSizy button clicked: \(productId ?? "-")")
     }
 }
 

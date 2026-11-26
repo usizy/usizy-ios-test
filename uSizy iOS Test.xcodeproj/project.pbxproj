@@ -15,8 +15,6 @@
 		65BE06BC25E8040D00A857D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BE06BA25E8040D00A857D7 /* Main.storyboard */; };
 		65BE06BE25E8041000A857D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BE06BD25E8041000A857D7 /* Assets.xcassets */; };
 		65BE06C125E8041000A857D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BE06BF25E8041000A857D7 /* LaunchScreen.storyboard */; };
-		D1403B1F2F1FD3D200FA9608 /* UsizyIosSdk in Frameworks */ = {isa = PBXBuildFile; productRef = D1403B1E2F1FD3D200FA9608 /* UsizyIosSdk */; };
-		D1403B222F1FD5F700FA9608 /* UsizyIosSdk in Frameworks */ = {isa = PBXBuildFile; productRef = D1403B212F1FD5F700FA9608 /* UsizyIosSdk */; };
 		D15556502F20F03900AF8ED0 /* UsizyIosSdk in Frameworks */ = {isa = PBXBuildFile; productRef = D155564F2F20F03900AF8ED0 /* UsizyIosSdk */; };
 /* End PBXBuildFile section */
 
@@ -58,9 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1403B222F1FD5F700FA9608 /* UsizyIosSdk in Frameworks */,
 				D15556502F20F03900AF8ED0 /* UsizyIosSdk in Frameworks */,
-				D1403B1F2F1FD3D200FA9608 /* UsizyIosSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +111,9 @@
 			dependencies = (
 			);
 			name = "uSizy iOS Test";
+			packageProductDependencies = (
+				D155564F2F20F03900AF8ED0 /* UsizyIosSdk */,
+			);
 			productName = "uSizy iOS Test";
 			productReference = 65BE06B125E8040D00A857D7 /* uSizy iOS Test.app */;
 			productType = "com.apple.product-type.application";
@@ -434,34 +433,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D1403B1D2F1FD3D200FA9608 /* XCRemoteSwiftPackageReference "usizy-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://bitbucket.org/usizy/usizy-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.11.2;
-			};
-		};
 		D155564E2F20F03900AF8ED0 /* XCRemoteSwiftPackageReference "usizy-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://bitbucket.org/usizy/usizy-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.12.1;
+				minimumVersion = 1.0.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D1403B1E2F1FD3D200FA9608 /* UsizyIosSdk */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D1403B1D2F1FD3D200FA9608 /* XCRemoteSwiftPackageReference "usizy-ios-sdk" */;
-			productName = UsizyIosSdk;
-		};
-		D1403B212F1FD5F700FA9608 /* UsizyIosSdk */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UsizyIosSdk;
-		};
 		D155564F2F20F03900AF8ED0 /* UsizyIosSdk */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D155564E2F20F03900AF8ED0 /* XCRemoteSwiftPackageReference "usizy-ios-sdk" */;

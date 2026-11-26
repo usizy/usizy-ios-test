@@ -35,11 +35,11 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBw-za-g3a" customClass="USizyButton" customModule="UsizyIosSdk">
-                                                    <rect key="frame" x="101.5" y="7" width="140" height="30"/>
+                                                    <rect key="frame" x="101.5" y="7" width="180" height="30"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="luv-Mv-aNW"/>
-                                                        <constraint firstAttribute="width" constant="140" id="to1-A6-f3l"/>
+                                                        <constraint firstAttribute="width" constant="180" id="to1-A6-f3l"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -48,7 +48,6 @@
                                                 <constraint firstItem="UB1-vk-aqz" firstAttribute="leading" secondItem="5an-53-cjK" secondAttribute="leadingMargin" constant="20" id="WSB-jF-Hfo"/>
                                                 <constraint firstItem="fBw-za-g3a" firstAttribute="centerY" secondItem="5an-53-cjK" secondAttribute="centerY" id="XFv-4L-fik"/>
                                                 <constraint firstItem="fBw-za-g3a" firstAttribute="leading" secondItem="UB1-vk-aqz" secondAttribute="trailing" constant="20" id="cIc-2r-aCa"/>
-                                                <constraint firstItem="fBw-za-g3a" firstAttribute="leading" secondItem="UB1-vk-aqz" secondAttribute="trailing" constant="20" id="ndI-cX-h1Q"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
